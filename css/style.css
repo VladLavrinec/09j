@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+    row-gap: 18px;
+}
+
+.item {
+    outline: 1px solid red;
+    height: 364px;
+    flex-basis: calc((100% - 3 * 18px) / 8);
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
